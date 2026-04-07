@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="https://github.com/user-attachments/assets/b88e96d7-6fe6-4197-8581-dbd2be2a2196" width="200" alt="Dead Trace Logo">
+<img src="https://github.com/user-attachments/assets/b88e96d7-6fe6-4197-8581-dbd2be2a2196">
 
 # Dead Trace | Research & Security
 
