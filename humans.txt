@@ -1,0 +1,11 @@
+/* TEAM */
+Founder: Bluster
+Site: Dead Trace
+
+/* THANKS */
+Open Source Community, Proton, GnuPG, Bl4ck hat hunt
+
+/* SITE */
+Last update: 2026/04/07
+Language: PT-BR / EN
+Components: HTML5, CSS3, Pure OpSec
