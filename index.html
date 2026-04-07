@@ -829,20 +829,31 @@
                 border-color: var(--gold);
                 box-shadow: 0 0 15px rgba(255, 170, 51, 0.15);
             }
-            .pgp-download {
-                display: inline-block;
-                padding: 0.6rem 1.4rem;
-                border-radius: 40px;
-                background: linear-gradient(145deg, var(--accent), #00aaff);
-                color: #03050a;
-                font-weight: 700;
-                border: none;
-                box-shadow: 0 0 15px var(--accent-glow);
-            }
-            .pgp-download:hover {
-                transform: translateY(-3px);
-                box-shadow: 0 8px 25px var(--accent-glow);
-            }
+.pgp-download {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background: #000; /* Fundo puro */
+    color: var(--accent); /* O seu verde/tecnológico apenas no texto */
+       border-radius: 40px;
+    /* Borda discreta que só ganha vida no hover */
+    border: 1px solid #222; 
+    
+    /* Fonte técnica */
+    font-family: 'JetBrains Mono', monospace; 
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+    transition: all 0.2s ease;
+}
+
+.pgp-download:hover {
+    /* No hover, ele apenas "acorda", sem explodir na tela */
+    border-color: var(--accent);
+    background: #050505;
+    color: #fff;
+}
 
 /* ======================================================
    FAQ
@@ -1446,6 +1457,7 @@ html {
                 <li><a href="#reconhecimento"><span data-lang="pt" class="inline">Reconhecimento</span><span data-lang="en" class="inline">Recognition</span></a></li>
                 <li><a href="#doacoes"><span data-lang="pt" class="inline">Doações</span><span data-lang="en" class="inline">Donate</span></a></li>
                 <li><a href="#contato"><span data-lang="pt" class="inline">Contato</span><span data-lang="en" class="inline">Contact</span></a></li>
+                
 
                 <li class="termos-dropdown" style="position:relative;">
                     <details>
@@ -1665,7 +1677,7 @@ html {
 
         <!-- Projetos -->
         <section id="projetos" aria-labelledby="projetos-heading">
-            <h2 id="projetos-heading"><span data-lang="pt">Projetos e Relatórios</span><span data-lang="en">Projects & Reports</span></h2>
+            <h2 id="projetos-heading"><span data-lang="pt">Projetos, Relatórios e Writeups</span><span data-lang="en">Projects, Reports and Writeups</span></h2>
 
             <p style="color:var(--text-secondary); margin-bottom:1rem;">
                 <span data-lang="pt">Relatórios públicos com provas verificáveis. Faça download do PDF e verifique conforme instruções de verificação.</span>
@@ -1689,7 +1701,7 @@ html {
                         </div>
 
                         <div class="project-actions">
-                            <a href="/projects/project-alpha/report.pdf" class="file-pill" download><span data-lang="pt">Download relatório (PDF)</span><span data-lang="en">Download report (PDF)</span></a>
+                            <a href="/projects/project-alpha/report.pdf" class="file-pill" download><span data-lang="pt">Relatório</span><span data-lang="en">Report</span></a>
                         </div>
 
                         <div class="verify-box">
@@ -1730,7 +1742,7 @@ sha256sum -c downloaded_manifest.txt
                         </div>
 
                         <div class="project-actions">
-                            <a href="/projects/project-beta/report.pdf" class="file-pill" download><span data-lang="pt">Download relatório (PDF)</span><span data-lang="en">Download report (PDF)</span></a>
+                            <a href="/projects/project-beta/report.pdf" class="file-pill" download><span data-lang="pt">Relatório</span><span data-lang="en">Report</span></a>
                         </div>
                     </div>
                 </article>
@@ -1751,7 +1763,7 @@ sha256sum -c downloaded_manifest.txt
                         </div>
 
                         <div class="project-actions">
-                            <a href="/projects/project-gamma/report.pdf" class="file-pill" download><span data-lang="pt">Download relatório (PDF)</span><span data-lang="en">Download report (PDF)</span></a>
+                            <a href="/projects/project-gamma/report.pdf" class="file-pill" download><span data-lang="pt">Relatório</span><span data-lang="en">Report</span></a>
                         </div>
                     </div>
                 </article>
@@ -1772,7 +1784,7 @@ sha256sum -c downloaded_manifest.txt
                         </div>
 
                         <div class="project-actions">
-                            <a href="/projects/project-delta/report.pdf" class="file-pill" download><span data-lang="pt">Download relatório (PDF)</span><span data-lang="en">Download report (PDF)</span></a>
+                            <a href="/projects/project-delta/report.pdf" class="file-pill" download><span data-lang="pt">Relatório</span><span data-lang="en">Report</span></a>
                         </div>
                     </div>
                 </article>
@@ -1834,11 +1846,11 @@ sha256sum -c downloaded_manifest.txt
       </a>
 
       <a class="recognition-pill" href="#user-net-specter" role="listitem">
-        <strong>net-specter</strong><br><small>Colaborador • 2026</small>
+        <strong>SpeCt4er</strong><br><small>Colaborador • 2026</small>
       </a>
 
       <a class="recognition-pill" href="#user-blue-lighthouse" role="listitem">
-        <strong>blue-lighthouse</strong><br><small>Patrocinador • 2025</small>
+        <strong>lighthouse</strong><br><small>Patrocinador • 2025</small>
       </a>
 
       <a class="recognition-pill" href="#user-void-runner" role="listitem">
@@ -1851,7 +1863,7 @@ sha256sum -c downloaded_manifest.txt
       </a>
 
       <a class="recognition-pill" href="#user-net-specter" role="listitem">
-        <strong>net-specter</strong><br><small>Colaborador • 2026</small>
+        <strong>Cwroded</strong><br><small>Colaborador • 2026</small>
       </a>
 
       <a class="recognition-pill" href="#user-blue-lighthouse" role="listitem">
@@ -1859,7 +1871,7 @@ sha256sum -c downloaded_manifest.txt
       </a>
 
       <a class="recognition-pill" href="#user-void-runner" role="listitem">
-        <strong>void-runner</strong><br><small>Patrono • 2026</small>
+        <strong>Pwnedman</strong><br><small>Patrono • 2026</small>
       </a>
     </div>
   </div>
@@ -1916,17 +1928,18 @@ sha256sum -c downloaded_manifest.txt
                 <div data-lang="pt"><p style="color:var(--text-secondary);">Para comunicações seguras, utilize minha chave PGP. A impressão digital é:</p></div>
                 <div data-lang="en"><p style="color:var(--text-secondary);">For secure communications, use my PGP key. The fingerprint is:</p></div>
 
-                <div class="pgp-fingerprint"><code>7D8E 9F4A 2C1B 5E3F 8A7D 9B2C 4E5F 1A3B 6C8D 0E2F</code></div>
+                <div class="pgp-fingerprint"><code>2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34</code></div>
 
                 <div style="display:flex; gap:.6rem; align-items:center; margin-top:.5rem; flex-wrap:wrap;">
-                    <a href="/pgp/public-key.asc" class="pgp-download" download>
+                    <a href="gpg.txt" class="pgp-download" download>
                         <span data-lang="pt">Baixar chave pública (asc)</span>
                         <span data-lang="en">Download public key (asc)</span>
                     </a>
-                    <div style="color:var(--text-muted); font-size:.92rem;">
-                        <span data-lang="pt">A chave expirará em: 2028-02-27</span>
-                        <span data-lang="en">Key expires: 2028-02-27</span>
-                    </div>
+                                        <a href="manifest.txt.asc" class="pgp-download" download>
+                        <span data-lang="pt">Baixar manifesto</span>
+                        <span data-lang="en">Download manifest</span>
+                    </a>
+
                 </div>
             </div>
         </section>
@@ -1941,6 +1954,11 @@ sha256sum -c downloaded_manifest.txt
                 <div data-lang="en"><p>I use secure communication tools (Telegram, PGP, Tor) and do not store contact data automatically. Donations via Monero (XMR).</p></div>
             </details>
 
+            <details>
+                <summary><span data-lang="pt">Pra que tanta segurança?</span><span data-lang="en">Why so much security?</span></summary>
+                <div data-lang="pt"><p>É legal :D</p></div>
+                <div data-lang="en"><p>It's cool :D</p></div>
+            </details>
             <details>
                 <summary><span data-lang="pt">Como contratar um serviço?</span><span data-lang="en">How to hire a service?</span></summary>
                 <div data-lang="pt"><p>Entre em contato por e-mail criptografado ou Telegram. Posso enviar proposta formal após entendimento do caso.</p></div>
@@ -1988,14 +2006,30 @@ sha256sum -c downloaded_manifest.txt
                     <p>1. Baixe a chave pública do autor (link na seção de chave PGP).<br>2. Baixe o manifesto assinado fornecido pelo autor e a sua assinatura (os arquivos estarão disponíveis para download no site).<br>3. Verifique a assinatura do manifesto usando a chave pública do autor.<br>4. Se a assinatura for válida, verifique os hashes SHA-256 localmente comparando-os com os arquivos baixados.</p>
                     <h4>Comandos — use nomes locais dos arquivos que você baixou</h4>
                     <pre class="verify-pre">
-# importar chave pública (apontando para o arquivo que você baixou)
-gpg --import arquivo_chave_publica.asc
+1. Importar a Chave Pública
+Adicione minha identidade ao seu sistema (baixe o arquivo gpg.txt do site):
 
-# verificar assinatura do manifesto (use os nomes que você salvou)
-gpg --verify manifesto_assinatura.asc manifesto.txt
+gpg --import gpg.txt
+2. Conferir a Identidade (Fingerprint)
+Certifique-se de que o ID bate com o registro oficial:
 
-# verificar integridade dos relatórios usando o manifesto local
-sha256sum -c manifesto.txt
+gpg --fingerprint blusterc@proton.me
+# ID: 2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34
+3. Validar a Assinatura do Manifesto
+O manifesto prova que eu autorizei a lista de arquivos atual:
+
+gpg --verify manifest.txt.asc
+A mensagem "Good signature" confirma a autoria.
+
+4. Checar integridade dos arquivos (SHA256)
+Este passo garante que nenhum bit dos relatórios foi modificado. Primeiro, extraímos a lista limpa e depois rodamos a conferência:
+
+# Extrai a lista de hashes do envelope assinado
+gpg --output manifest.txt --decrypt manifest.txt.asc
+
+# Verifica se os arquivos baixados batem com a lista
+sha256sum -c manifest.txt
+Se o retorno for OK, o arquivo é seguro e íntegro.
                     </pre>
                     <p style="color:var(--text-secondary);">Se o GPG responder <em>Good signature</em> e o sha256sum devolver <em>OK</em> para cada item, os arquivos são autênticos em relação ao manifesto assinado.</p>
                     <h4>Boas práticas</h4>
@@ -2013,14 +2047,32 @@ sha256sum -c manifesto.txt
                     <p>1. Download the author's public key (link in the PGP section).<br>2. Download the signed manifest and its signature from the author (available for download on the site).<br>3. Verify the manifest signature with the public key.<br>4. If the signature is valid, verify SHA-256 hashes locally against the downloaded reports.</p>
                     <h4>Commands — use the local filenames you downloaded</h4>
                     <pre class="verify-pre">
-# import public key (point to the file you downloaded)
-gpg --import downloaded_public_key.asc
+# 1. Import the Public Key
+Add my identity to your system (download the gpg.txt file from the site):
 
-# verify manifest signature (use your downloaded filenames)
-gpg --verify downloaded_manifest_signature.asc downloaded_manifest.txt
+gpg --import gpg.txt
 
-# check file integrity using the manifest
-sha256sum -c downloaded_manifest.txt
+# 2. Check the Identity (Fingerprint)
+Ensure the ID matches the official record:
+
+gpg --fingerprint blusterc@proton.me
+# ID: 2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34
+
+# 3. Validate the Manifest Signature
+The manifest proves that I authorized the current file list:
+
+gpg --verify manifest.txt.asc
+The "Good signature" message confirms authorship.
+
+# 4. Check file integrity (SHA256)
+This step ensures that not a single bit of the reports has been modified. First, we extract the clean list, and then we run the verification:
+
+# Extracts the hash list from the signed envelope
+gpg --output manifest.txt --decrypt manifest.txt.asc
+
+# Verifies if the downloaded files match the list
+sha256sum -c manifest.txt
+If the output is OK, the file is secure and intact.
                     </pre>
                     <p style="color:var(--text-secondary);">If GPG returns <em>Good signature</em> and sha256sum returns <em>OK</em> for each entry, the files match the signed manifest and are authentic to the key holder.</p>
                     <h4>Best practices</h4>
@@ -2102,14 +2154,19 @@ sha256sum -c downloaded_manifest.txt
         
         <div class="urgent-options">
  <span href="#" class="urgent-btn">
+
     <div class="btn-info">
         <strong>Proton + PGP</strong>
-        <code style="user-select: all; position: relative; z-index: 10;">blusterc@proton.me</code>
+        <code style="user-select: all; position: relative; z-index: 10; display: block; font-size: 0.85em;">blusterc@proton.me</code>
+        <small style="font-size: 10px; color: #888; display: block; margin-top: 4px;">
+            FPR: 2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34
+        </small>
     </div>
     <span class="badge-secure">
         <span data-lang="pt">Máx. Sigilo</span>
         <span data-lang="en">Max OpSec</span>
     </span>
+
 </span>
 
 
