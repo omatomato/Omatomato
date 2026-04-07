@@ -1,5 +1,0 @@
-# Dead Trace Security Policy
-Contact: mailto:blusterc@proton.me
-Encryption: https://omatomato.github.io/Omatomato/pgp.txt
-Canonical: https://omatomato.github.io/Omatomato/.well-known/security.txt
-Preferred-Languages: pt, en
