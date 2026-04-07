@@ -932,7 +932,7 @@ header {
 
       <div style="display:flex;align-items:center;gap:1rem;">
         <nav class="nav-links" aria-label="Main">
-          <a href="index1.html"><span data-lang="pt">Início</span><span data-lang="en">Home</span></a>
+          <a href="index.html"><span data-lang="pt">Início</span><span data-lang="en">Home</span></a>
           <a href="#contato"><span data-lang="pt">Contato</span><span data-lang="en">Contact</span></a>
         </nav>
 
@@ -1408,7 +1408,7 @@ sha256sum -c manifesto-2026-02-28.txt
           <p style="margin-top:1.5rem"><strong><span data-lang="pt">Email PGP:</span><span data-lang="en">PGP Email:</span></strong> <span  style="color:var(--accent)">blusterc@proton.me</span></p>
 
           <p><strong><span data-lang="pt">Chave PGP (fingerprint):</span><span data-lang="en">PGP key (fingerprint):</span></strong></p>
-          <div class="pgp-fp">7D8E 9F4A 2C1B 5E3F 8A7D 9B2C 4E5F 1A3B 6C8D 0E2F</div>
+          <div class="pgp-fp">2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34 </div>
 
           <p style="margin-top:1.5rem"><strong><span data-lang="pt">Pagamento (Wallet Monero):</span><span data-lang="en">Payment (Monero wallet):</span></strong></p>
           <div class="mono">83EyrBUs37pFjtUzjZrAB41phjKe9Uua9KAy5mW1UZASbX5QEPb63KkVqgUMSyQP989kMjyCCkc1bSqBTA8URHTS6RSq90R</div>
@@ -1421,7 +1421,7 @@ sha256sum -c manifesto-2026-02-28.txt
         <p style="margin-top:.5rem;"><a href="#top" style="color:var(--accent);text-decoration:none;"><span data-lang="pt">Voltar ao topo</span><span data-lang="en">Back to top</span></a></p>
     </footer>
   </div>
-  <div class="dt-urgent-root">
+<div class="dt-urgent-root">
     <input type="checkbox" id="dt-urgent-toggle">
 
     <div class="dt-urgent-panel">
@@ -1437,40 +1437,37 @@ sha256sum -c manifesto-2026-02-28.txt
         </div>
         
         <div class="urgent-options">
-            <a href="#" class="urgent-btn">
-                <div class="btn-info">
-                    <strong>Signal <span data-lang="pt">(Recomendado)</span><span data-lang="en">(Recommended)</span></strong>
-                    <span>+00 00000-0000</span>
-                </div>
-                <span class="badge-secure">
-                    <span data-lang="pt">Máx. Sigilo</span>
-                    <span data-lang="en">Max OpSec</span>
-                </span>
-            </a>
+ <span href="#" class="urgent-btn">
 
-            <a href="mailto:pesquisador@onionmail.org" class="urgent-btn">
-                <div class="btn-info">
-                    <strong>Onionmail + PGP</strong>
-                    <span>pesquisador@onionmail.org</span>
-                </div>
-            </a>
+    <div class="btn-info">
+        <strong>Proton + PGP</strong>
+        <code style="user-select: all; position: relative; z-index: 10; display: block; font-size: 0.85em;">blusterc@proton.me</code>
+        <small style="font-size: 10px; color: #888; display: block; margin-top: 4px;">
+            FPR: 2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34
+        </small>
+    </div>
+    <span class="badge-secure">
+        <span data-lang="pt">Máx. Sigilo</span>
+        <span data-lang="en">Max OpSec</span>
+    </span>
 
-            <a href="#" class="urgent-btn">
+</span>
+
+
+            <span href="https://t.me/omatomato#" class="urgent-btn">
                 <div class="btn-info">
                     <strong>Telegram</strong>
-                    <span>@SeuUserAqui</span>
+                    <code>t.me/omatomato</code>
                 </div>
                 <span class="badge-warn">
-                    <span data-lang="pt">OpSec Menor</span>
-                    <span data-lang="en">Lower OpSec</span>
+                    <span data-lang="pt">low opsec</span>
+                    <span data-lang="en">low opsec</span>
                 </span>
-            </a>
+            </span>
         </div>
         
         <div class="urgent-panel-footer">
             <label for="dt-urgent-toggle" class="close-urgent">
-                <span data-lang="pt">Fechar Painel</span>
-                <span data-lang="en">Close Panel</span>
             </label>
         </div>
     </div>
