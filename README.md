@@ -1,6 +1,7 @@
 <div align="center">
 
-# Dead Trace | Research & Security
+# Dead Trace Laboratory | Research & Security
+<img width="357" height="393" alt="image" src="https://github.com/user-attachments/assets/fffecc31-428b-408e-a010-b1ceb67daa63" />
 
 [![Website](https://img.shields.io/badge/SITE-DEAD_TRACE-00a1c6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omatomato.github.io/Omatomato/)
 [![ProtonMail](https://img.shields.io/badge/CONTACT-PROTONMAIL-3bd4ff?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:blusterc@proton.me)
