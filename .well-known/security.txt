@@ -2,4 +2,11 @@
 Contact: mailto:blusterc@proton.me
 Encryption: https://omatomato.github.io/Omatomato/pgp.txt
 Canonical: https://omatomato.github.io/Omatomato/.well-known/security.txt
+
+Expires: 2027-04-07T08:00:00z
+
 Preferred-Languages: pt, en
+
+Policy: https://omatomato.github.io/Omatomato/index.html#verificacao
+
+Hiring: https://omatomato.github.io/Omatomato/service-detail.html
