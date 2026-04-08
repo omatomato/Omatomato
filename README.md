@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/SITE-DEAD_TRACE-00a1c6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omatomato.github.io/Omatomato/)
 [![ProtonMail](https://img.shields.io/badge/CONTACT-PROTONMAIL-3bd4ff?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:blusterc@proton.me)
-[![GPG](https://img.shields.io/badge/GPG-VERIFIED-9ff6ff?style=for-the-badge&logo=gnupg&logoColor=black)]
+![GPG](https://img.shields.io/badge/GPG-VERIFIED-9ff6ff?style=for-the-badge&logo=gnupg&logoColor=black)
 
 > **"Tracing the dead, securing the living."**
 
