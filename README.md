@@ -31,7 +31,7 @@ Para comunicações seguras ou verificação de integridade de relatórios:
 
 - **Fingerprint:** `2B43 C0CE 100D 8B6F 76FB C2BB 765C 151A 678A 5A34`
 - **Security Policy:** [Vulnerability Disclosure Protocol (RFC 9116)](https://omatomato.github.io/Omatomato/.well-known/security.txt)
-- **Public Key:** [pgp.txt](https://omatomato.github.io/Omatomato/pgp.txt)
+- **Public Key:** [pgp.txt](https://omatomato.github.io/pgp.txt)
 
 ---
 <div align="center">
