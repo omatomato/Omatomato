@@ -13,7 +13,7 @@
 ---
 
 ### About
-Estudante de Engenharia de Software focado em Cibersegurança e Privacidade. Fundador da Dead Trace, laboratório de pesquisa em soberania digital e criptografia.
+Dead Trace, laboratório de pesquisa em soberania digital e criptografia.
 
 - Focus: Offensive Security & Perimeter Defense.
 - Philosophy: Open Source, PGP and extreme minimalism.
