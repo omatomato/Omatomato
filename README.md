@@ -34,5 +34,5 @@ Para comunicações seguras ou verificação de integridade de relatórios:
 
 ---
 <div align="center">
-  <sub>"In cryptography we trust." | © 2026 Dead Trace Research</sub>
+  <sub> © 2026 Dead Trace Research</sub>
 </div>
