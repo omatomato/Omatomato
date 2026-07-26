@@ -18,23 +18,6 @@
 OSINT, digital investigations, detection engineering and incident response.
 Public work is documented with reproducible evidence, explicit limitations and sensitive data removed.
 
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/omatomato/Fraud-Investigation">
-        <img src="./assets/project-fraud-investigation.svg" width="100%" alt="Fraud Investigation case study" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/omatomato/omatomato.github.io">
-        <img src="./assets/project-field-lab.svg" width="100%" alt="Field Lab source project" />
-      </a>
-    </td>
-  </tr>
-</table>
-
 ## Focus & tools
 
 <div align="center">
