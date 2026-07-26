@@ -10,7 +10,6 @@
 [![TryHackMe](https://img.shields.io/badge/TRYHACKME-OMATO-c11111?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/omato)
 [![Cases](https://img.shields.io/badge/PUBLIC_CASES-191916?style=for-the-badge&logo=readthedocs&logoColor=f1ebdd)](https://omatomato.github.io/cases/)
 [![PGP](https://img.shields.io/badge/PGP-765C151A678A5A34-191916?style=for-the-badge&logo=gnuprivacyguard&logoColor=ff4d00)](https://omatomato.github.io/trust/cryptography/)
-![Profile views](https://komarev.com/ghpvc/?username=omatomato&style=for-the-badge&color=ff4d00&label=PROFILE+VIEWS)
 
 <br />
 
