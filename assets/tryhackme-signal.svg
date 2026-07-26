@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="270" viewBox="0 0 1100 270" role="img" aria-labelledby="title desc">
+  <title id="title">Omatomato on TryHackMe</title>
+  <desc id="desc">TryHackMe public profile snapshot: level 2, Bronze League, 264 points, 6 completed rooms, 1 badge, Top 65 percent.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090908"/>
+      <stop offset=".62" stop-color="#11110f"/>
+      <stop offset="1" stop-color="#171512"/>
+    </linearGradient>
+    <radialGradient id="signal" cx=".78" cy=".4" r=".66">
+      <stop offset="0" stop-color="#c11111" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#c11111" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#292824" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1098" height="268" rx="18" fill="url(#surface)" stroke="#302d29" stroke-width="2"/>
+  <rect x="1" y="1" width="1098" height="268" rx="18" fill="url(#grid)" opacity=".46"/>
+  <rect x="1" y="1" width="1098" height="268" rx="18" fill="url(#signal)"/>
+
+  <g transform="translate(42 42)">
+    <path d="M46 0L86 23V69L46 92L6 69V23Z" fill="#c11111" opacity=".15" stroke="#e13a3a" stroke-width="2"/>
+    <path d="M29 30H63L70 37V58L62 66H49V55H58V43H35V69H24V35Z" fill="#f2eeee"/>
+    <circle cx="70" cy="23" r="5" fill="#e13a3a" filter="url(#glow)"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="158" y="62" fill="#e13a3a" font-size="13" font-weight="700" letter-spacing="4">TRAINING SIGNAL / PUBLIC PROFILE</text>
+    <text x="156" y="112" fill="#f1ebdd" font-size="39" font-weight="800" letter-spacing="3">OMATO</text>
+    <text x="158" y="143" fill="#aaa49a" font-size="15" letter-spacing="2">TRYHACKME · STUDENT · BRONZE LEAGUE</text>
+  </g>
+
+  <g transform="translate(158 174)" font-family="Arial, Helvetica, sans-serif">
+    <g>
+      <text y="0" fill="#f1ebdd" font-size="25" font-weight="700">2</text>
+      <text y="25" fill="#777166" font-size="11" font-weight="700" letter-spacing="2">LEVEL</text>
+    </g>
+    <g transform="translate(112)">
+      <text y="0" fill="#f1ebdd" font-size="25" font-weight="700">264</text>
+      <text y="25" fill="#777166" font-size="11" font-weight="700" letter-spacing="2">POINTS</text>
+    </g>
+    <g transform="translate(250)">
+      <text y="0" fill="#f1ebdd" font-size="25" font-weight="700">6</text>
+      <text y="25" fill="#777166" font-size="11" font-weight="700" letter-spacing="2">ROOMS</text>
+    </g>
+    <g transform="translate(362)">
+      <text y="0" fill="#f1ebdd" font-size="25" font-weight="700">1</text>
+      <text y="25" fill="#777166" font-size="11" font-weight="700" letter-spacing="2">BADGE</text>
+    </g>
+    <g transform="translate(474)">
+      <text y="0" fill="#e13a3a" font-size="25" font-weight="700">TOP 65%</text>
+      <text y="25" fill="#777166" font-size="11" font-weight="700" letter-spacing="2">GLOBAL RANK</text>
+    </g>
+  </g>
+
+  <g transform="translate(858 46)">
+    <circle cx="82" cy="82" r="72" fill="none" stroke="#292824" stroke-width="12"/>
+    <circle cx="82" cy="82" r="72" fill="none" stroke="#c11111" stroke-width="12" stroke-linecap="round"
+      stroke-dasharray="66 452" transform="rotate(-90 82 82)"/>
+    <circle cx="82" cy="82" r="54" fill="#0d0d0b" stroke="#302d29"/>
+    <text x="82" y="76" fill="#f1ebdd" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800">14.6</text>
+    <text x="82" y="100" fill="#777166" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">CAPABILITY</text>
+    <text x="82" y="191" fill="#777166" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" letter-spacing="2">LIVE PROFILE ↗</text>
+  </g>
+
+  <path d="M42 238H1058" stroke="#302d29"/>
+  <circle cx="43" cy="238" r="3" fill="#e13a3a"/>
+  <circle cx="1057" cy="238" r="3" fill="#e13a3a"/>
+</svg>
