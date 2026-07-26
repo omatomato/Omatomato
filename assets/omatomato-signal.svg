@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Omatomato</title>
+  <desc id="desc">Dark cybersecurity banner with orange signal traces and the phrase Trace the signal. Prove the pattern.</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#090908"/>
+      <stop offset=".56" stop-color="#11110f"/>
+      <stop offset="1" stop-color="#171612"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#292824" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#6f6a60"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ff4d00" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ff4d00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="orange-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="18" fill="url(#fade)"/>
+  <rect width="1280" height="360" rx="18" fill="url(#grid)" opacity=".6"/>
+  <rect x="760" width="520" height="360" rx="18" fill="url(#dots)" opacity=".48"/>
+  <circle cx="1010" cy="170" r="190" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#777166" stroke-width="1" opacity=".64">
+    <circle cx="1010" cy="170" r="116"/>
+    <circle cx="1010" cy="170" r="78"/>
+    <circle cx="1010" cy="170" r="41"/>
+    <path d="M781 274L876 224L929 245L1010 170L1088 111L1164 143L1245 76"/>
+    <path d="M792 101L884 127L940 98L1010 170L1074 224L1166 201L1252 260"/>
+  </g>
+
+  <g fill="#ff4d00" filter="url(#orange-glow)">
+    <circle cx="1010" cy="170" r="7"/>
+    <circle cx="929" cy="245" r="4"/>
+    <circle cx="1088" cy="111" r="4"/>
+    <circle cx="884" cy="127" r="3"/>
+    <circle cx="1166" cy="201" r="3"/>
+  </g>
+
+  <g stroke="#ff4d00" stroke-width="2" fill="none">
+    <path d="M980 170H1040"/>
+    <path d="M1010 140V200"/>
+    <path d="M740 80H815"/>
+  </g>
+
+  <text x="72" y="114" fill="#ff4d00" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="5">
+    INDEPENDENT SECURITY RESEARCH
+  </text>
+  <text x="68" y="206" fill="#f1ebdd" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="8">
+    OMATOMATO
+  </text>
+  <text x="72" y="258" fill="#aaa49a" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="2">
+    TRACE THE SIGNAL. PROVE THE PATTERN.
+  </text>
+
+  <g fill="#aaa49a" font-family="'Courier New', monospace" font-size="11" letter-spacing="2">
+    <text x="72" y="318">OSINT / INCIDENT RESPONSE / PRIVACY / DIGITAL INVESTIGATIONS</text>
+    <text x="1073" y="326">SIGNAL 01</text>
+  </g>
+
+  <rect x=".5" y=".5" width="1279" height="359" rx="17.5" fill="none" stroke="#292824"/>
+</svg>
