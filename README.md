@@ -97,12 +97,6 @@ DEV         local-first tools</pre>
   </tr>
 </table>
 
-## Public contribution activity
-
-<div align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=omatomato&bg_color=0d1117&color=c9d1d9&line=ff4d00&point=f1ebdd&area=true&area_color=ff4d00&hide_border=true&custom_title=Public%20contribution%20activity" alt="Omatomato public contribution activity" />
-</div>
-
 ## TryHackMe
 
 <div align="center">
