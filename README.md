@@ -35,14 +35,6 @@ Public work is documented with reproducible evidence, explicit limitations and s
   </tr>
 </table>
 
-## TryHackMe
-
-<div align="center">
-  <a href="https://tryhackme.com/p/omato">
-    <img src="./assets/thm_badge.svg" width="640" alt="Live TryHackMe statistics for omato" />
-  </a>
-</div>
-
 ## Focus & tools
 
 <div align="center">
