@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">Omatomato</title>
-  <desc id="desc">Dark cybersecurity banner with orange signal traces and the phrase Trace the signal. Prove the pattern.</desc>
+  <desc id="desc">Dark animated security research banner with orange signal traces, OSINT, detection engineering and incident response.</desc>
   <defs>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#090908"/>
@@ -28,23 +28,44 @@
 
   <rect width="1280" height="360" rx="18" fill="url(#fade)"/>
   <rect width="1280" height="360" rx="18" fill="url(#grid)" opacity=".6"/>
+  <rect x="0" y="-50" width="1280" height="42" fill="#ff4d00" opacity=".035">
+    <animate attributeName="y" values="-50;370" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
   <rect x="760" width="520" height="360" rx="18" fill="url(#dots)" opacity=".48"/>
   <circle cx="1010" cy="170" r="190" fill="url(#glow)"/>
 
   <g fill="none" stroke="#777166" stroke-width="1" opacity=".64">
-    <circle cx="1010" cy="170" r="116"/>
-    <circle cx="1010" cy="170" r="78"/>
+    <circle cx="1010" cy="170" r="116" stroke-dasharray="8 10">
+      <animateTransform attributeName="transform" type="rotate" from="0 1010 170" to="360 1010 170" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="170" r="78" stroke-dasharray="4 8">
+      <animateTransform attributeName="transform" type="rotate" from="360 1010 170" to="0 1010 170" dur="16s" repeatCount="indefinite"/>
+    </circle>
     <circle cx="1010" cy="170" r="41"/>
-    <path d="M781 274L876 224L929 245L1010 170L1088 111L1164 143L1245 76"/>
-    <path d="M792 101L884 127L940 98L1010 170L1074 224L1166 201L1252 260"/>
+    <path d="M781 274L876 224L929 245L1010 170L1088 111L1164 143L1245 76" stroke-dasharray="520" stroke-dashoffset="520">
+      <animate attributeName="stroke-dashoffset" values="520;0;0" keyTimes="0;.65;1" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M792 101L884 127L940 98L1010 170L1074 224L1166 201L1252 260" stroke-dasharray="520" stroke-dashoffset="520">
+      <animate attributeName="stroke-dashoffset" values="520;0;0" keyTimes="0;.65;1" dur="4s" begin=".8s" repeatCount="indefinite"/>
+    </path>
   </g>
 
   <g fill="#ff4d00" filter="url(#orange-glow)">
-    <circle cx="1010" cy="170" r="7"/>
-    <circle cx="929" cy="245" r="4"/>
-    <circle cx="1088" cy="111" r="4"/>
-    <circle cx="884" cy="127" r="3"/>
-    <circle cx="1166" cy="201" r="3"/>
+    <circle cx="1010" cy="170" r="7">
+      <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="929" cy="245" r="4">
+      <animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin=".3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1088" cy="111" r="4">
+      <animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin=".7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="884" cy="127" r="3">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.9s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1166" cy="201" r="3">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2.3s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
   <g stroke="#ff4d00" stroke-width="2" fill="none">
@@ -60,11 +81,11 @@
     OMATOMATO
   </text>
   <text x="72" y="258" fill="#aaa49a" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="2">
-    TRACE THE SIGNAL. PROVE THE PATTERN.
+    OSINT / DETECTION ENGINEERING / INCIDENT RESPONSE
   </text>
 
   <g fill="#aaa49a" font-family="'Courier New', monospace" font-size="11" letter-spacing="2">
-    <text x="72" y="318">OSINT / INCIDENT RESPONSE / PRIVACY / DIGITAL INVESTIGATIONS</text>
+    <text x="72" y="318">PUBLIC CASEWORK / SECURITY LABS / VERIFIED CONTACT</text>
     <text x="1073" y="326">SIGNAL 01</text>
   </g>
 
