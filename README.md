@@ -46,52 +46,45 @@ DEV         local-first tools</pre>
 
 ## Public operations surface
 
-| Surface | Status | Scope |
-| :--- | :---: | :--- |
-| [Field Lab](https://omatomato.github.io) | `LIVE` | Portfolio, secure contact, public research and operational resources |
-| [Case Archive](https://omatomato.github.io/cases/) | `REDACTED` | Evidence-led investigations with explicit confidence and limitations |
-| [Cybersec Lab](https://omatomato.github.io/lab/) | `ACTIVE` | IOC triage, threat models, defensive PoCs and checklists |
-| [Evidence Tools](https://omatomato.github.io/tools/) | `LOCAL-FIRST` | Browser utilities designed to avoid silent file uploads |
-| [Field Notes](https://omatomato.github.io/notes/) | `PUBLIC` | Short technical writing on evidence, attribution and incident response |
-| [Trust Center](https://omatomato.github.io/trust/) | `VERIFIED` | PGP identity, disclosure policy and verification instructions |
+<div align="center">
+  <a href="https://omatomato.github.io">
+    <img src="./assets/operations-surface.svg" width="100%" alt="Omatomato public operations status board" />
+  </a>
+  <br />
+  <sub>
+    <a href="https://omatomato.github.io/cases/">Cases</a> ·
+    <a href="https://omatomato.github.io/lab/">Cybersec Lab</a> ·
+    <a href="https://omatomato.github.io/tools/">Evidence Tools</a> ·
+    <a href="https://omatomato.github.io/notes/">Field Notes</a> ·
+    <a href="https://omatomato.github.io/trust/">Trust Center</a>
+  </sub>
+</div>
 
 ## Selected repositories
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omatomato/omatomato.github.io">01 / Field Lab source ↗</a></h3>
-      <p>
-        Next.js source for the public security portfolio, local Evidence Lab,
-        IOC triage, trust material, and encrypted-contact workflow.
-      </p>
-      <p><code>TypeScript</code> <code>Next.js</code> <code>OpenPGP</code> <code>GitHub Pages</code></p>
+    <td width="50%">
+      <a href="https://github.com/omatomato/omatomato.github.io">
+        <img src="./assets/project-field-lab.svg" width="100%" alt="Field Lab source project" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omatomato/Fraud-Investigation">02 / Fraud Investigation ↗</a></h3>
-      <p>
-        Redacted study of a multi-stage JavaScript injection campaign using
-        OSINT, infrastructure analysis, threat hunting, and on-chain tracing.
-      </p>
-      <p><code>OSINT</code> <code>Threat Intel</code> <code>On-chain</code> <code>Case study</code></p>
+    <td width="50%">
+      <a href="https://github.com/omatomato/Fraud-Investigation">
+        <img src="./assets/project-fraud-investigation.svg" width="100%" alt="Fraud Investigation case study" />
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omatomato/soc-lab">03 / SOC Lab ↗</a></h3>
-      <p>
-        Isolated APT simulation with Sysmon telemetry, Wazuh detection,
-        Sigma rules, MITRE ATT&amp;CK mapping, and automated response exercises.
-      </p>
-      <p><code>Wazuh</code> <code>Sysmon</code> <code>Sigma</code> <code>SOAR</code></p>
+    <td width="50%">
+      <a href="https://github.com/omatomato/soc-lab">
+        <img src="./assets/project-soc-lab.svg" width="100%" alt="SOC Lab detection and response project" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omatomato/Security-Utils">04 / Security Utils ↗</a></h3>
-      <p>
-        Java 21 learning toolkit for password generation and analysis,
-        hashing, file-integrity checks, and local encryption experiments.
-      </p>
-      <p><code>Java 21</code> <code>Maven</code> <code>Cryptography</code> <code>Learning</code></p>
+    <td width="50%">
+      <a href="https://github.com/omatomato/Security-Utils">
+        <img src="./assets/project-security-utils.svg" width="100%" alt="Security Utils Java learning toolkit" />
+      </a>
     </td>
   </tr>
 </table>
@@ -110,12 +103,9 @@ DEV         local-first tools</pre>
 
 ## Investigation workflow
 
-```text
-INGEST ──► PRESERVE ──► CORRELATE ──► CHALLENGE ──► REPORT
-   │           │             │             │            │
- sources    integrity     timeline      alternatives   limits
- context    hashes        entities      confidence     actions
-```
+<div align="center">
+  <img src="./assets/investigation-pipeline.svg" width="100%" alt="Investigation workflow from ingest through reporting" />
+</div>
 
 <details>
 <summary><strong>Research and investigation</strong></summary>

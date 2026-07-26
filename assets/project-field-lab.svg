@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="245" viewBox="0 0 520 245" role="img" aria-labelledby="title desc">
+  <title id="title">Field Lab source</title><desc id="desc">Privacy-first security portfolio and field desk built with TypeScript and Next.js.</desc>
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a0908"/><stop offset="1" stop-color="#21130d"/></linearGradient><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#35271f"/></pattern></defs>
+  <rect x="1" y="1" width="518" height="243" rx="16" fill="url(#b)" stroke="#5a2a16" stroke-width="2"/><rect x="1" y="1" width="518" height="243" rx="16" fill="url(#g)" opacity=".35"/>
+  <text x="24" y="34" fill="#ff4d00" font-family="'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="3">01 / PUBLIC SYSTEM</text>
+  <rect x="424" y="18" width="72" height="24" rx="12" fill="#ff4d00" opacity=".16"/><text x="460" y="34" text-anchor="middle" fill="#ff6a2b" font-family="Arial" font-size="10" font-weight="700">LIVE</text>
+  <path d="M26 64H72M49 51V77" stroke="#ff4d00" stroke-width="2"/><circle cx="49" cy="64" r="17" fill="none" stroke="#6a321b"/>
+  <text x="88" y="70" fill="#f1ebdd" font-family="Arial" font-size="25" font-weight="700">FIELD LAB SOURCE</text>
+  <text x="24" y="112" fill="#aaa49a" font-family="Arial" font-size="14">Privacy-first portfolio, local evidence tools,</text><text x="24" y="134" fill="#777166" font-family="Arial" font-size="13">IOC triage, trust material and secure contact.</text>
+  <path d="M24 159H496" stroke="#493125"/>
+  <g font-family="'Courier New',monospace" font-size="10" font-weight="700"><rect x="24" y="180" width="86" height="28" rx="6" fill="#ff4d00" opacity=".13"/><text x="67" y="198" text-anchor="middle" fill="#ff7b42">TYPESCRIPT</text><rect x="120" y="180" width="72" height="28" rx="6" fill="#fff" opacity=".06"/><text x="156" y="198" text-anchor="middle" fill="#c6c0b5">NEXT.JS</text><rect x="202" y="180" width="82" height="28" rx="6" fill="#fff" opacity=".06"/><text x="243" y="198" text-anchor="middle" fill="#c6c0b5">OPENPGP</text></g>
+  <text x="496" y="224" text-anchor="end" fill="#777166" font-family="'Courier New',monospace" font-size="10">OPEN REPOSITORY ↗</text>
+</svg>
